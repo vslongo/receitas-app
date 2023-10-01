@@ -1,0 +1,26 @@
+/* RecipeList.css */
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin: 20px;
+  text-align: center;
+}
+
+.recipe-card {
+  text-decoration: none;
+  color: #333;
+}
+
+.recipe-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.recipe-name {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-align: center;
+}

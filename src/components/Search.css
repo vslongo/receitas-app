@@ -1,0 +1,38 @@
+/* Search.css */
+.search {
+  text-align: center;
+}
+
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipe-card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.recipe-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.recipe-name {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}

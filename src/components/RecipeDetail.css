@@ -1,0 +1,26 @@
+/* RecipeDetail.css */
+.recipe-detail-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.recipe-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.recipe-ingredients {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.recipe-instructions {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.recipe-instructions p {
+  margin-bottom: 10px;
+}
