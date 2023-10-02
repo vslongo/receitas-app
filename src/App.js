@@ -4,6 +4,7 @@ import Header from './components/Header';
 import RecipeList from './components/RecipeList';
 import RecipeDetail from './components/RecipeDetail';
 import Search from './components/Search';
+import './App.css';
 
 function App() {
   return (

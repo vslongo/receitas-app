@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './Search.css'; // Importe o arquivo CSS
+import './Search.css';
 
 function Search() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -21,7 +21,9 @@ function Search() {
           throw new Error('Network response was not ok');
         }
         const data = await response.json();
-        setSearchResults(data.meals);
+        
+        // Verificar se data.meals é null antes de definir searchResults
+        setSearchResults(data.meals || []);
       } catch (error) {
         console.error('Error searching recipes:', error);
       } finally {
@@ -44,6 +46,8 @@ function Search() {
       <div className="search-results">
         {loading ? (
           <p>Loading...</p>
+        ) : searchResults.length === 0 ? (
+          <p>No recipes found.</p>
         ) : (
           searchResults.map((recipe) => (
             <Link to={`/recipe/${recipe.idMeal}`} key={recipe.idMeal} className="recipe-card">
