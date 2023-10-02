@@ -22,7 +22,6 @@ function Search() {
         }
         const data = await response.json();
         
-        // Verificar se data.meals é null antes de definir searchResults
         setSearchResults(data.meals || []);
       } catch (error) {
         console.error('Error searching recipes:', error);

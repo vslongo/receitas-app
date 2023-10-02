@@ -27,7 +27,7 @@ function Header() {
   const logoStyle = {
     fontSize: '24px',
     fontWeight: 'bold',
-    textDecoration: 'none', // Remova a sublinhado do link para o logo
+    textDecoration: 'none', 
     color: '#fff',
   };
 

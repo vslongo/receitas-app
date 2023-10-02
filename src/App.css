@@ -3,15 +3,15 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0; /* Cor de fundo global */
+  background-color: #f0f0f0; 
 }
 
 
 .App {
   text-align: center;
-  max-width: 1200px; /* Largura máxima do conteúdo */
-  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
-  padding: 20px; /* Espaçamento interno do conteúdo */
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px; 
 }
 
 .App-logo {

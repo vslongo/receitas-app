@@ -3,22 +3,40 @@
   text-align: center;
   padding: 20px;
 }
+.recipe-detail-container img {
+  max-width: 100%; 
+  height: auto; 
+}
 
 .recipe-title {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+.recipe-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .recipe-ingredients {
   text-align: center;
-  list-style-position: inside;
+  list-style: none;
+  padding: 0;
+}
+
+.recipe-ingredients li {
+  margin: 4px 0;
 }
 
 .recipe-instructions {
   font-size: 1.2rem;
   line-height: 1.6;
-  text-align: left;
+  text-align: center;
 }
 
 .recipe-instructions p {

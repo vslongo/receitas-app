@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import './RecipeDetail.css'; // Importe a folha de estilo
+import './RecipeDetail.css'; 
 
 function RecipeDetail() {
   const { id } = useParams();
