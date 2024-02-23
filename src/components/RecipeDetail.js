@@ -23,6 +23,7 @@ function RecipeDetail() {
     fetchRecipe();
   }, [id]);
 
+  
   if (!recipe) {
     return <p>Loading...</p>;
   }
