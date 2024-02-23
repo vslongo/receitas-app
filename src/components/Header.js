@@ -13,6 +13,7 @@ function Header() {
     alignItems: 'center',
   };
 
+  
   const navStyle = {
     listStyleType: 'none',
     padding: 0,
